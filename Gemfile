@@ -1,1 +1,1 @@
-gem 'selenium-webdriver', '3.142.1'
+gem 'selenium-webdriver', '3.2.1'
