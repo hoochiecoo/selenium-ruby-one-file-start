@@ -7,7 +7,7 @@ def start_browser
   @browser = Selenium::WebDriver.for(:remote,
                                      url: 'http://[selenoid_url]:[port]/wd/hub',
                                      desired_capabilities: caps)
-  @browser.navigate.to 'https://google.com
+  @browser.navigate.to 'https://google.com'
   ele = @browser.find_element :xpath, '(//*[contains(.,"abonds")])[last()]'
   ele.click
 end
