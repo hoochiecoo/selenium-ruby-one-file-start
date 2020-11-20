@@ -15,3 +15,5 @@ end
 def quit_browser
   @browser.quit
 end
+
+start_browser
